@@ -1,0 +1,14 @@
+Package: aigifmaker
+Type: Package
+Title: Turn Text into Animated GIFs with 'AI GIF Maker'
+Version: 0.1.0
+Authors@R: person("AI GIF Maker", role = c("aut", "cre"), email = "support@aigifmaker.ai")
+Description: Official SDK for 'AI GIF Maker' <https://aigifmaker.ai>: turn text
+    into animated GIFs. Native GIF generation, no video conversion. Send a
+    prompt with your 'AI GIF Maker' API key, wait for the GIF URL, and check
+    your remaining credits.
+License: MIT + file LICENSE
+URL: https://aigifmaker.ai/?utm_source=r-universe&utm_medium=package, https://github.com/hanshs474/aigifmaker-r
+BugReports: https://github.com/hanshs474/aigifmaker-r/issues
+Imports: curl, jsonlite
+Encoding: UTF-8

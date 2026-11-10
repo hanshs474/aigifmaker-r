@@ -1,0 +1,7 @@
+export(aigifmaker_generate)
+export(aigifmaker_submit)
+export(aigifmaker_status)
+export(aigifmaker_wait)
+export(aigifmaker_credits)
+importFrom(curl, new_handle, handle_setheaders, handle_setopt, curl_fetch_memory)
+importFrom(jsonlite, toJSON, fromJSON)
